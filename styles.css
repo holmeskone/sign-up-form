@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src:
+      url("assets/Norse-Bold.otf") format("otf");
+    font-weight: bold;
+    font-style: bold;
+  }
+  
+
+:root {
+  background: rgb(227, 227, 227);
+  font-family: "Norse-Bold", serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.form{
+    background-color: white;
+}
+
+.background_image{
+    background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+}
