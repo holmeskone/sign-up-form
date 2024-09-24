@@ -1,19 +1,23 @@
+/* Importing font for the Odin logo section with the background image*/
 @font-face {
-    font-family: "Norse-Bold";
+    font-family: "Norse";
     src:
-      url("assets/Norse-Bold.otf") format("otf");
+    url("assets/norse-font/norse-bold-webfont.woff") format("woff"),
+    url("assets/norse-font/norse-bold-webfont.woff2") format("woff2");
     font-weight: bold;
     font-style: bold;
   }
   
+/* Setting basic propeties for the entire page, including font, background color and padding/margin */
 
 :root {
   background: rgb(227, 227, 227);
-  font-family: "Norse-Bold", serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 0px;
   margin: 0px;
 }
 
+/* Manipulating the container that contains the hero sections, image and sign up form. Display set to flex to customise layout */
 .container {
   display: flex;
   flex-direction: row;
@@ -21,17 +25,22 @@
   height: 100vh;
   width: 100vw;
 }
-
+/* Manipulating the section witht the image, so that it displays the whole image, it displays the right font,
+and occupies the whole length of the page. */
 .background_image{
   background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   flex-shrink: 0;
   flex: auto;
   align-items: stretch;
   height: 100vh;
   width: 20vh;
-
+  font-family: 'Norse';
+  color: white;
 }
-
+/* This section is where the form exisits. */
 .content-section{
 flex-shrink: 0;
 flex-wrap: wrap;
@@ -41,6 +50,7 @@ height: 100vh;
 width: 80vh;
 }
 
+/* This is controling the form section and changing it's background color to white */
 .form{
     background-color: white;
 }
