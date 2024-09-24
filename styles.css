@@ -25,7 +25,6 @@ body{
 /* Manipulating the container that contains the hero sections, image and sign up form. Display set to flex to customise layout */
 .container {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   height: 100vh;
   width: 100vw;
@@ -42,11 +41,11 @@ and occupies the whole length of the page. */
   flex-shrink: 0;
   height: 100vh;
   width: 30vw;
+  color: white;
 }
 
 .background_image .overlay{
   display: flex; /* Used to place side by side"*/
-  flex-direction: row;
   font-size: 48px;
   font-family: 'Norse';
   justify-content: center;
@@ -60,9 +59,25 @@ and occupies the whole length of the page. */
   background-color: rgba(0, 0, 0, 0.497);
 }
 
-.overlay p{
+.background_image p{
+font-size: 0.75rem;
+color: white;
+position: absolute;
+bottom: 0px;
+left: 15px;
+}
+.background_image a{
+  font-size: 0.75rem;
+  color: white;
+  }
+
+.overlay h2{
   color: white;
   font-size: 4rem;
+}
+
+.overlay img{
+width: 4rem;
 }
 
 
