@@ -14,10 +14,34 @@
   margin: 0px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100vh;
+  width: 100vw;
+}
+
+.background_image{
+  background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+  flex-shrink: 0;
+  flex: auto;
+  align-items: stretch;
+  height: 100vh;
+  width: 20vh;
+
+}
+
+.content-section{
+flex-shrink: 0;
+flex-wrap: wrap;
+flex: auto;
+align-items: stretch;
+height: 100vh;
+width: 80vh;
+}
+
 .form{
     background-color: white;
 }
 
-.background_image{
-    background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
-}
