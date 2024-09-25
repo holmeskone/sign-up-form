@@ -104,7 +104,7 @@ width: 70vh;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -3rem;
+    top: -2rem;
     background-color: white;
     color: rgb(72, 72, 72);
     padding: 0rem 21rem 0rem 2rem;
@@ -137,7 +137,7 @@ input{
   box-shadow: none;
   border-width: 1px;
   border-radius: 3px;
-  border-color: rgb(212, 212, 212);
+  border-color: #E5E7EB;
   border-style:solid;
   width: 12rem;
 }
@@ -152,7 +152,7 @@ input{
   top: -2rem;
   padding: 12px 0px; 
   width: 10rem;
-  background-color: #596C48;
+  background-color: #596D48;
   color: white;
   font-size: 0.8rem;
   font-weight: 400;
@@ -182,5 +182,17 @@ font-size: 14px;
 }
 
 .input:invalid{
+  border-color: red;
+}
+
+.error-message{
+color: red;
+position: relative;
+top: -1.2rem;
+font-size: 11px;
+display:none;
+}
+
+.error{
   border-color: red;
 }
