@@ -80,7 +80,6 @@ left: 15px;
 width: 4rem;
 }
 
-
 /* This section is where the form exisits. */
 .content-section{
 display: flex;
@@ -95,7 +94,7 @@ width: 70vh;
 
 .content-text{
   position: relative;
-  top: -1rem;
+  top: -3rem;
   padding: 2rem 21rem 0rem 2rem;
   font-size: 1.5rem;
 }
@@ -104,6 +103,8 @@ width: 70vh;
 .form{
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: -3rem;
     background-color: white;
     color: rgb(72, 72, 72);
     padding: 0rem 21rem 0rem 2rem;
@@ -141,13 +142,15 @@ input{
   width: 12rem;
 }
 
-.content-section .call-to-action{
+.call-to-action{
   margin: -2rem 0 0 2rem;
+  position: relative;
+  top: -6.5rem;
 }
 
 button{
   top: -2rem;
-  padding: 10px 0px; 
+  padding: 12px 0px; 
   width: 10rem;
   background-color: #596C48;
   color: white;
@@ -157,9 +160,11 @@ button{
   border-radius: 5px;
 }
 
+.call-to-action {
+font-size: 14px;
+}
 
-
-.content-section a{
+.call-to-action a{
   color: #596C48;
   text-decoration: none;
 }
